@@ -31,5 +31,5 @@ export const fromScript = (script: string | Script): PlutusScript => {
 };
 
 export const toScript = (plutusScript: PlutusScript): Script => {
-  return new Script(ALL_PLUTUS_VERSIONS[plutusScript.version], plutusScript.code);
+  return Script.fromCbor(plutusScript.code, ALL_PLUTUS_VERSIONS[plutusScript.version]);
 };
