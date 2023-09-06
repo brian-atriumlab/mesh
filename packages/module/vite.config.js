@@ -12,9 +12,9 @@ export default defineConfig({
     },
     rollupOptions: {
       external: [
-        '@emurgo/cardano-message-signing-nodejs',
-        '@emurgo/cardano-serialization-lib-nodejs',
-        'axios', 'bip39', 'nanoid', 'zod',
+        '@emurgo/cardano-message-signing-asmjs',
+        '@emurgo/cardano-serialization-lib-asmjs',
+        'axios', 'bip39', 'zod',
       ],
       plugins: [
         typescript(),
