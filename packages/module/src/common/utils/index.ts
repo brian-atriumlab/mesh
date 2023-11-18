@@ -3,3 +3,4 @@ export * from './converter';
 export * from './deserializer';
 export * from './parser';
 export * from './resolver';
+export * from './aiken';

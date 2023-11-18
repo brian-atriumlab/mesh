@@ -113,3 +113,7 @@ _local
 
 # local testing on new features
 localTest.tsx
+packages/module/src/libs/test.ts
+
+# rust build
+packages/module/src/libs/target
